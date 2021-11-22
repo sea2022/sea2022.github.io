@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Univ.-Prof. PD. Dr. Christian Schulz -- Algorithm Engineering Group Heidelberg</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="cssinfo.html" class="logo">Compute Scheduler</a>
+								</header>
+
+ <section id="banner2">
+                                                                        <div class="content">
+                                                                        <h3 id="Overview">  Overview </h3>
+<p></p>
+The compute server scheduler (CSS) allows to share our compute servers in a fine-grained manner. Users can request their commands to run exclusively. Other users trying the same will be blocked. (It is not actually a scheduler, just an allocator).
+<p></p>
+<strong>All time-consuming commands on such machines must be preceded by either 'exclusive' or 'nonexclusive'.</strong>
+<p></p>
+<h3 id="Usage">  Usage </h3>
+<p></p>
+The two main commands are
+<pre>css</pre> (type css to see a list of subcommands) and <br> <pre>exclusive </pre>
+<p></p>
+To run a command exclusively, type
+<pre>exclusive [command]</pre>
+<p></p>
+To reserve the computer for your own for a while, start an exclusive shell or screen:
+<pre>exclusive bash
+exclusive screen</pre>
+<p></p>
+If the system is locked up because one of your command crashed badly, type
+<pre>css clear</pre> Only do this if you are sure that no other exclusive or nonexclusive commands are running. <pre>css info</pre>
+<p></p>
+shows the current status of the machine, while
+<pre>css overview</pre>
+<p></p>
+shows an overview of the load of all machines.
+<p></p>
+If you do not need a machine exclusively, but your work would interfere with exclusive jobs, please start your program using
+<pre>nonexclusive [command]</pre>
+<p></p>
+Multiple users can share a machine non-exclusively, but there can be only one exclusive job.
+<p></p>
+If you just need a compute node, and do not know which ones are currently free, login in to <strong>aeghpc105</strong>, which is a shared always free ssh-entry server that can also be used for simple compute tasks.
+<pre>ssh aeghpc105.ifi.uni-heidelberg.de 
+</pre> 
+
+				</div>	
+                                                                </section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+			<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+								<footer id="footer">
+<img src="logo3.png" width=250> 
+</footer>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<ul>
+										<li><a href="index.html">News</a></li>
+										<li><a href="team.html">Group Members</a>
+                                                                                </li>
+										<li><a href="research.html">Research</a></li>
+										<li><a href="opensource.html">Open Source</a></li>
+
+										<li><a href="publications.html">Publications</a></li>
+										<li>
+											<span class="opener">Teaching</span>
+											<ul>
+											<li><a href="teaching_opentopics.html">Open Thesis Topics</a></li>
+												<li><a href="teaching_ws2022.html">Winter Semester 2021/2022</a></li>
+												<li><a href="teaching_ss2021.html">Summer Semester 2021</a></li>
+												<li><a href="teaching_ws2021.html">Winter Semester 2020/2021</a></li>
+											</ul>
+										</li>
+										<li><a href="openpos.html">Open Positions</a></li>
+										<li><a href="contact.html">Contact</a></li>
+									</ul>
+								</nav>
+
+							<!-- Footer -->
+								<footer id="footer">
+                                                                <img src="images/math_inf_dt.png" width="200px">
+                                                                <img src="heidelberg-university.png" width="200px">
+
+<p class="copyright">&copy;  Copyright Universität Heidelberg <br> <a href="http://www.uni-heidelberg.de/kontakt.html#impressum">Impressum</a>
+        <br> <a href="https://www.uni-heidelberg.de/datenschutzerklaerung_web.html">Datenschutzerklärung</a></p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
