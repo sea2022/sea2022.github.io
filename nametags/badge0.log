@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.2)  14 JUN 2022 17:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.2)  14 JUN 2022 17:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -186,16 +186,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 tasse.pdf>] (./badge0.aux) ) 
 Here is how much of TeX's memory you used:
  1761 strings out of 481239
- 25975 string characters out of 5920378
+ 25976 string characters out of 5920378
  265102 words of memory out of 5000000
- 17053 multiletter control sequences out of 15000+600000
- 533589 words of font info for 28 fonts, out of 8000000 for 9000
+ 17054 multiletter control sequences out of 15000+600000
+ 533588 words of font info for 28 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  30i,13n,25p,221b,200s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmti12.pfb>
-Output written on badge0.pdf (1 page, 111740 bytes).
+Output written on badge0.pdf (1 page, 111856 bytes).
 PDF statistics:
  24 PDF objects out of 1000 (max. 8388607)
  15 compressed objects within 1 object stream

@@ -14,7 +14,7 @@ while read p; do
 
 
         sed -n '1,28 p' a7-60.tex > badge$COUNTER.tex
-        echo "\\huge\\textbf{$FIRSTNAME $LASTNAME} \\\\
+        echo "\\Large\\textbf{$FIRSTNAME $LASTNAME} \\\\
 \\large\\textit{$AFFILIATION}" >> badge$COUNTER.tex
         sed -n '31,40 p' a7-60.tex >> badge$COUNTER.tex
 
