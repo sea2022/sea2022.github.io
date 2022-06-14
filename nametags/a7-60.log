@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.2)  14 JUN 2022 17:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.2)  14 JUN 2022 17:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**a7-60.tex
+**a7-60
 (./a7-60.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
@@ -98,20 +98,20 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 (./a7-60.aux)
 \openout1 = `a7-60.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
-LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
+LaTeX Font Info:    ... okay on input line 10.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -174,31 +174,37 @@ ABD: EveryShipout initializing macros
 File: tasseentwurf_vec_hd_sea_tasse.pdf Graphic file (type pdf)
 <use tasseentwurf_vec_hd_sea_tasse.pdf>
 Package pdftex.def Info: tasseentwurf_vec_hd_sea_tasse.pdf  used on input line 
-30.
+33.
 (pdftex.def)             Requested size: 85.35826pt x 85.00436pt.
+<heidelberg.jpg, id=2, 977.5722pt x 524.6802pt>
+File: heidelberg.jpg Graphic file (type jpg)
+<use heidelberg.jpg>
+Package pdftex.def Info: heidelberg.jpg  used on input line 33.
+(pdftex.def)             Requested size: 156.49014pt x 83.99057pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 30.
+(Font)              <7> on input line 33.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 30.
+(Font)              <5> on input line 33.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./tasseentwurf_vec_hd_sea_
-tasse.pdf>] (./a7-60.aux) ) 
+tasse.pdf> <./heidelberg.jpg>]
+(./a7-60.aux) ) 
 Here is how much of TeX's memory you used:
- 1761 strings out of 481239
- 25965 string characters out of 5920378
+ 1766 strings out of 481239
+ 26047 string characters out of 5920378
  265099 words of memory out of 5000000
- 17053 multiletter control sequences out of 15000+600000
- 533589 words of font info for 28 fonts, out of 8000000 for 9000
+ 17057 multiletter control sequences out of 15000+600000
+ 533290 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,13n,25p,220b,200s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmti12.pfb>
-Output written on a7-60.pdf (1 page, 111739 bytes).
+ 30i,13n,25p,216b,202s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+bx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
+fb>
+Output written on a7-60.pdf (1 page, 366555 bytes).
 PDF statistics:
- 24 PDF objects out of 1000 (max. 8388607)
+ 25 PDF objects out of 1000 (max. 8388607)
  15 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
