@@ -1,0 +1,14 @@
+\documentclass[a4paper,twoside]{article}
+\usepackage{pdfpages,geometry}
+\geometry{scale=1,marginparsep=0pt,marginparwidth=0pt,landscape}
+\begin{document}
+\newsavebox\adrielhrule
+\sbox\adrielhrule{\vrule height .2pt depth .2pt width \paperwidth}
+\newsavebox\adrielvrule
+\sbox\adrielvrule{\hspace*{-.2pt}\vrule height \paperheight depth 0pt width .4pt}
+\includepdf[nup=4x2,pages={40,1,38,3,36,5,34,7,  32,9,30,11,28,13,26,15,  24,17,22,19,20,21,18,23,  16,25,14,27,12,29,10,31, 8,33,6,35,4,37,2,39}, picturecommand={%
+    \setlength\unitlength{1mm}% modified from Ignasi's answer at http://tex.stackexchange.com/a/64745/
+    \put(0,105){\usebox{\adrielhrule}}%
+    \put(148.5,0){\usebox{\adrielvrule}}%
+  }]{a7-40}
+\end{document}
