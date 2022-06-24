@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.2)  21 JUN 2022 17:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.2)  23 JUN 2022 15:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**factsheet.tex
+**factsheet
 (./factsheet.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
@@ -27,6 +27,30 @@ File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 Package: fullpage 1999/02/23 1.1 (PWD)
 \FP@margin=\skip49
 )
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+)
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
 
@@ -46,10 +70,6 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
 )
 (/usr/share/texlive/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
@@ -72,7 +92,7 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
-\@linkdim=\dimen135
+\@linkdim=\dimen137
 \Hy@linkcounter=\count175
 \Hy@pagecounter=\count176
 
@@ -103,7 +123,7 @@ Package hyperref Info: Bookmarks ON on input line 4800.
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5159.
-\XeTeXLinkMargin=\dimen136
+\XeTeXLinkMargin=\dimen138
 
 (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -113,8 +133,8 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
 \Fld@menulength=\count180
-\Field@Width=\dimen137
-\Fld@charsize=\dimen138
+\Field@Width=\dimen139
+\Fld@charsize=\dimen140
 Package hyperref Info: Hyper figures OFF on input line 6430.
 Package hyperref Info: Link nesting OFF on input line 6435.
 Package hyperref Info: Hyper index ON on input line 6438.
@@ -163,84 +183,137 @@ File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
 (./factsheet.aux)
 \openout1 = `factsheet.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-\AtBeginShipoutBox=\box46
-Package hyperref Info: Link coloring OFF on input line 6.
- (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count187
+\scratchdimen=\dimen141
+\scratchbox=\box46
+\nofMPsegments=\count188
+\nofMParguments=\count189
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count190
+\MPscratchDim=\dimen142
+\MPnumerator=\count191
+\makeMPintoPDFobject=\count192
+\everyMPtoPDFconversion=\toks16
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box47
+Package hyperref Info: Link coloring OFF on input line 7.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
 (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count187
+\c@section@level=\count193
 )
-LaTeX Info: Redefining \ref on input line 6.
-LaTeX Info: Redefining \pageref on input line 6.
-LaTeX Info: Redefining \nameref on input line 6.
+LaTeX Info: Redefining \ref on input line 7.
+LaTeX Info: Redefining \pageref on input line 7.
+LaTeX Info: Redefining \nameref on input line 7.
 
 (./factsheet.out) (./factsheet.out)
 \@outlinefile=\write3
 \openout3 = `factsheet.out'.
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 8.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 8.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 8.
+<logo3.png, id=44, 125.75986pt x 32.52988pt>
+File: logo3.png Graphic file (type png)
+<use logo3.png>
+Package pdftex.def Info: logo3.png  used on input line 11.
+(pdftex.def)             Requested size: 170.71652pt x 44.16159pt.
 
-
-LaTeX Warning: No \author given.
+Overfull \hbox (28.45274pt too wide) in paragraph at lines 11--12
+[][] 
+ []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 19.
+(Font)              <7> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 19.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 29.
+(Font)              <5> on input line 12.
+<tasseentwurf_vec_sea.png, id=46, 3468.96pt x 3468.96pt>
+File: tasseentwurf_vec_sea.png Graphic file (type png)
+<use tasseentwurf_vec_sea.png>
+Package pdftex.def Info: tasseentwurf_vec_sea.png  used on input line 14.
+(pdftex.def)             Requested size: 81.09052pt x 81.03888pt.
+<heidelberg-university.png, id=47, 977.5722pt x 524.6802pt>
+File: heidelberg-university.png Graphic file (type png)
+<use heidelberg-university.png>
+Package pdftex.def Info: heidelberg-university.png  used on input line 16.
+(pdftex.def)             Requested size: 150.79968pt x 80.9323pt.
+<qr-code_citytour.png, id=49, 1159.33125pt x 1159.33125pt>
+File: qr-code_citytour.png Graphic file (type png)
+<use qr-code_citytour.png>
+Package pdftex.def Info: qr-code_citytour.png  used on input line 32.
+(pdftex.def)             Requested size: 113.81102pt x 113.79942pt.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 29.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo3.png> <./tasseentwu
+rf_vec_sea.png> <./heidelberg-university.png> <./qr-code_citytour.png>]
+<qr-code_schloss_location.png, id=62, 1159.33125pt x 1159.33125pt>
+File: qr-code_schloss_location.png Graphic file (type png)
+<use qr-code_schloss_location.png>
+Package pdftex.def Info: qr-code_schloss_location.png  used on input line 41.
+(pdftex.def)             Requested size: 113.81102pt x 113.79942pt.
+
+[2 <./qr-code_schloss_location.png>]
+<whatsapp.jpg, id=70, 228.1323pt x 257.2812pt>
+File: whatsapp.jpg Graphic file (type jpg)
+<use whatsapp.jpg>
+Package pdftex.def Info: whatsapp.jpg  used on input line 56.
+(pdftex.def)             Requested size: 256.0748pt x 288.80074pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
+ [3 <./whatsapp.jpg>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
  (./factsheet.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
 Package rerunfilecheck Info: File `factsheet.out' has not changed.
-(rerunfilecheck)             Checksum: 853F13B9F519EDC8ADE2234239905DCB;377.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 29.
+(rerunfilecheck)             Checksum: 2E96CED8976E666FC488D0FD1A19D709;468.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
  ) 
 Here is how much of TeX's memory you used:
- 4462 strings out of 481239
- 70286 string characters out of 5920378
- 327013 words of memory out of 5000000
- 19676 multiletter control sequences out of 15000+600000
- 536146 words of font info for 37 fonts, out of 8000000 for 9000
+ 5241 strings out of 481239
+ 81376 string characters out of 5920378
+ 339274 words of memory out of 5000000
+ 20425 multiletter control sequences out of 15000+600000
+ 533111 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 34i,6n,29p,402b,309s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 34i,6n,29p,398b,309s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on factsheet.pdf (2 pages, 63639 bytes).
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on factsheet.pdf (3 pages, 970867 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 63 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 92 PDF objects out of 1000 (max. 8388607)
+ 75 compressed objects within 1 object stream
+ 14 named destinations out of 1000 (max. 500000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
