@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.2)  27 JUN 2022 11:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.2.2)  7 JUL 2022 15:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -244,7 +244,7 @@ LaTeX Info: Redefining \nameref on input line 7.
 \@outlinefile=\write3
 \openout3 = `factsheet.out'.
 
-<logo3.png, id=48, 125.75986pt x 32.52988pt>
+<logo3.png, id=56, 125.75986pt x 32.52988pt>
 File: logo3.png Graphic file (type png)
 <use logo3.png>
 Package pdftex.def Info: logo3.png  used on input line 11.
@@ -258,17 +258,17 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 12.
-<tasseentwurf_vec_sea.png, id=50, 3468.96pt x 3468.96pt>
+<tasseentwurf_vec_sea.png, id=58, 3468.96pt x 3468.96pt>
 File: tasseentwurf_vec_sea.png Graphic file (type png)
 <use tasseentwurf_vec_sea.png>
 Package pdftex.def Info: tasseentwurf_vec_sea.png  used on input line 14.
 (pdftex.def)             Requested size: 81.09052pt x 81.03888pt.
-<heidelberg-university.png, id=51, 977.5722pt x 524.6802pt>
+<heidelberg-university.png, id=59, 977.5722pt x 524.6802pt>
 File: heidelberg-university.png Graphic file (type png)
 <use heidelberg-university.png>
 Package pdftex.def Info: heidelberg-university.png  used on input line 16.
 (pdftex.def)             Requested size: 150.79968pt x 80.9323pt.
-<qr-code_citytour.png, id=53, 1159.33125pt x 1159.33125pt>
+<qr-code_citytour.png, id=61, 1159.33125pt x 1159.33125pt>
 File: qr-code_citytour.png Graphic file (type png)
 <use qr-code_citytour.png>
 Package pdftex.def Info: qr-code_citytour.png  used on input line 32.
@@ -277,68 +277,66 @@ Package pdftex.def Info: qr-code_citytour.png  used on input line 32.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo3.png> <./tasseentwu
 rf_vec_sea.png> <./heidelberg-university.png> <./qr-code_citytour.png>]
-<qr-code_schloss_location.png, id=66, 1159.33125pt x 1159.33125pt>
+<qr-code_schloss_location.png, id=74, 1159.33125pt x 1159.33125pt>
 File: qr-code_schloss_location.png Graphic file (type png)
 <use qr-code_schloss_location.png>
 Package pdftex.def Info: qr-code_schloss_location.png  used on input line 41.
 (pdftex.def)             Requested size: 113.81102pt x 113.79942pt.
+<qr-code_proceedings.png, id=77, 1151.30125pt x 1151.30125pt>
+File: qr-code_proceedings.png Graphic file (type png)
+<use qr-code_proceedings.png>
+Package pdftex.def Info: qr-code_proceedings.png  used on input line 50.
+(pdftex.def)             Requested size: 113.81102pt x 113.80174pt.
 
-[2 <./qr-code_schloss_location.png>]
-<whatsapp.jpg, id=74, 228.1323pt x 257.2812pt>
+[2 <./qr-code_schloss_location.png> <./qr-code_proceedings.png>]
+<whatsapp.jpg, id=84, 228.1323pt x 257.2812pt>
 File: whatsapp.jpg Graphic file (type jpg)
 <use whatsapp.jpg>
-Package pdftex.def Info: whatsapp.jpg  used on input line 56.
+Package pdftex.def Info: whatsapp.jpg  used on input line 60.
 (pdftex.def)             Requested size: 256.0748pt x 288.80074pt.
  [3 <./whatsapp.jpg>]
-<programMonday.png, id=79, 1427.3325pt x 1400.23125pt>
+<programMonday.png, id=89, 1427.3325pt x 1400.23125pt>
 File: programMonday.png Graphic file (type png)
 <use programMonday.png>
-Package pdftex.def Info: programMonday.png  used on input line 62.
+Package pdftex.def Info: programMonday.png  used on input line 66.
 (pdftex.def)             Requested size: 469.75502pt x 460.83853pt.
  [4 <./programMonday.png>]
-<programTuesday.png, id=84, 1436.36626pt x 1315.91624pt>
+<programTuesday.png, id=94, 1454.43375pt x 1324.95pt>
 File: programTuesday.png Graphic file (type png)
 <use programTuesday.png>
-Package pdftex.def Info: programTuesday.png  used on input line 68.
-(pdftex.def)             Requested size: 469.75502pt x 430.35834pt.
+Package pdftex.def Info: programTuesday.png  used on input line 72.
+(pdftex.def)             Requested size: 469.75502pt x 427.935pt.
  [5 <./programTuesday.png>]
-<programWednesday.png, id=90, 1430.34375pt x 1044.90375pt>
+<programWednesday.png, id=99, 1454.43375pt x 1041.8925pt>
 File: programWednesday.png Graphic file (type png)
 <use programWednesday.png>
-Package pdftex.def Info: programWednesday.png  used on input line 74.
-(pdftex.def)             Requested size: 469.75502pt x 343.16113pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 76.
+Package pdftex.def Info: programWednesday.png  used on input line 78.
+(pdftex.def)             Requested size: 469.75502pt x 336.51251pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 80.
  [6 <./programWednesday.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 76.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 80.
  (./factsheet.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 76.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 76.
-
-
-Package rerunfilecheck Warning: File `factsheet.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `factsheet.out':
-(rerunfilecheck)             Before: D04F034B0330B1E01B4E06713097BD88;512
-(rerunfilecheck)             After:  05018D3A123B6FC18539DE87329792F5;625.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 76.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 80.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 80.
+Package rerunfilecheck Info: File `factsheet.out' has not changed.
+(rerunfilecheck)             Checksum: 05018D3A123B6FC18539DE87329792F5;625.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 80.
  ) 
 Here is how much of TeX's memory you used:
- 5266 strings out of 481239
- 81823 string characters out of 5920378
- 339274 words of memory out of 5000000
- 20441 multiletter control sequences out of 15000+600000
+ 5274 strings out of 481239
+ 82004 string characters out of 5920378
+ 338274 words of memory out of 5000000
+ 20448 multiletter control sequences out of 15000+600000
  533111 words of font info for 27 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  34i,6n,29p,398b,311s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on factsheet.pdf (6 pages, 1472087 bytes).
+Output written on factsheet.pdf (6 pages, 1497307 bytes).
 PDF statistics:
- 114 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
+ 122 PDF objects out of 1000 (max. 8388607)
+ 98 compressed objects within 1 object stream
  20 named destinations out of 1000 (max. 500000)
- 134 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 155 words of extra memory for PDF output out of 10000 (max. 10000000)
 
